@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>Signup</title>
+  </head>
+  <body>
+  <h1>Buat Account Baru!</h1>
+  <h3>Sign Up Form</h3>
+  <form action="welcome.html" method="POST">
+
+    <!-- TEXT AREA FIELED -->
+    <p><label for="first-name">First name:</label>
+    <br /><input id="first-name" name="firstname" type="text">
+
+    <p><label for="last-name">Last name:</label>
+    <br/><input id="last-name" name="lastname" type="text">
+
+    <!-- RADIO FIELD -->
+    <p><label for="gender">Gender:</label>
+    <br/><input id="male-radio" type="radio" name="gender">
+         <label for="male-radion">Male</label>
+    <br/><input id="female-radio" type="radio" name="gender">
+         <label for="female-radion">Female</label>
+    <br/><input id="other-radio" type="radio" name="gender">
+         <label for="other-radion">Female</label>
+
+    <!-- DROP DOWN LIST FIELD -->
+    <p>
+    <label for="nasionality">Nationality:</label><br/>
+      <select name="altnasionalist">
+        <option value="indonesia">Indonesia</option>
+        <option value="malaysia">Malaysia</option>
+        <option value="singapur">Singapur</option>
+        <option value="brunei">Brunei</option>
+      </select>
+
+    <!-- CECKBOX FIELD -->
+    <p>
+    <label for="skill">Language Spoken:</label><br/>
+    <input id="writing-checkbox" type="checkbox" name="bahasaindonesia" value="bi">
+    <label for="writing-checkbox">Bahasa indonesia</label><br/>
+
+    <input id="reading-checkbox" type="checkbox" name="english" value="el">
+    <label for="reading-checkbox">English</label><br/>
+
+    <input id="reading-checkbox" type="checkbox" name="others" value="ot">
+    <label for="reading-checkbox">Other</label>
+
+    <!-- TEXT AREA FIELD -->
+    <p>Bio:<br/>
+    <textarea row="4" cols="50">
+    </textarea>
+
+    <p><input type="submit" value="Submit">
+  </form>
+  </body>
+</html>
