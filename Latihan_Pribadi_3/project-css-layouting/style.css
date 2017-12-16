@@ -1,0 +1,17 @@
+header{
+  /*position: fixed; */
+  background-color: #466995;
+  z-index: 10;
+}
+
+ul{
+  text-align: right;
+}
+
+li{
+  display: inline-block;
+}
+
+#article-list{
+
+}
